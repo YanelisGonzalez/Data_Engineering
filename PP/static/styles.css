@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#storyContent {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: #6c5ce7;
+    border: none;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #5b4bc4;
+}
